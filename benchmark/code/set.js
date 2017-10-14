@@ -1,3 +1,5 @@
 'use strict';
 
-module.exports = require('array-uniq');
+module.exports = function(arr) {
+  return Array.from(new Set(arr))
+}
